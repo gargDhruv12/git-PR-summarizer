@@ -1,0 +1,37 @@
+[
+  {
+    "pr_number": 101,
+    "title": "Add CSV export for weekly reports",
+    "summary": "Allows users to download their weekly activity reports in standard CSV spreadsheet format.",
+    "url": "https://github.com/example/analytics-app/pull/101",
+    "merged_at": "2026-10-02T10:15:00Z"
+  },
+  {
+    "pr_number": 102,
+    "title": "Resolve session timeout logout issue",
+    "summary": "Fixes a bug where active users were prematurely logged out after 15 minutes of activity.",
+    "url": "https://github.com/example/analytics-app/pull/102",
+    "merged_at": "2026-10-03T14:20:00Z"
+  },
+  {
+    "pr_number": 103,
+    "title": "Remove deprecated v1 OAuth endpoints",
+    "summary": "Removes legacy v1 authentication endpoints in favor of modern OAuth 2.0 PKCE flow. Applications must migrate to v2.",
+    "url": "https://github.com/example/analytics-app/pull/103",
+    "merged_at": "2026-10-04T09:30:00Z"
+  },
+  {
+    "pr_number": 104,
+    "title": "Correct date format in localized emails",
+    "summary": "Ensures notification email timestamps adhere to user locale instead of defaulting to UTC.",
+    "url": "https://github.com/example/analytics-app/pull/104",
+    "merged_at": "2026-10-05T16:45:00Z"
+  },
+  {
+    "pr_number": 105,
+    "title": "Add dark mode toggle in user preferences",
+    "summary": "Introduces a sleek high-contrast dark theme selectable directly in the user settings dashboard.",
+    "url": "https://github.com/example/analytics-app/pull/105",
+    "merged_at": "2026-10-06T11:00:00Z"
+  }
+]

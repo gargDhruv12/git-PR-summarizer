@@ -1,0 +1,18 @@
+{
+  "repo_name": "example/analytics-app",
+  "week_start": "2026-10-09",
+  "week_end": "2026-10-16",
+  "merged_prs": [
+    {
+      "pr_number": 121,
+      "title": "Add health check endpoint for container probes",
+      "summary": "Introduces a lightweight /healthz HTTP endpoint for container liveness and readiness probes.",
+      "url": "https://github.com/example/analytics-app/pull/121",
+      "merged_at": "2026-10-12T11:20:00Z",
+      "is_breaking": false
+    }
+  ],
+  "candidate_draft": "# Release Notes\n\n## Features\n- [#121] Added /healthz endpoint for container orchestration and uptime monitoring.\n\n## Fixes\n- None in this release\n\n## Breaking Changes\n- None in this release\n",
+  "expected": "pass",
+  "expected_problem": null
+}

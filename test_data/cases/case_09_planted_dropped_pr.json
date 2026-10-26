@@ -1,0 +1,34 @@
+{
+  "repo_name": "example/analytics-app",
+  "week_start": "2026-12-04",
+  "week_end": "2026-12-11",
+  "merged_prs": [
+    {
+      "pr_number": 191,
+      "title": "Add search auto-complete suggestions",
+      "summary": "Displays real-time suggestions in the global search bar based on recent user queries.",
+      "url": "https://github.com/example/analytics-app/pull/191",
+      "merged_at": "2026-12-05T10:15:00Z",
+      "is_breaking": false
+    },
+    {
+      "pr_number": 192,
+      "title": "Fix infinite spinner on billing invoice download",
+      "summary": "Resolves hanging state when generating PDF invoices containing more than 50 line items.",
+      "url": "https://github.com/example/analytics-app/pull/192",
+      "merged_at": "2026-12-07T14:40:00Z",
+      "is_breaking": false
+    },
+    {
+      "pr_number": 193,
+      "title": "Add dark mode high-contrast color scheme",
+      "summary": "Introduces an accessible WCAG AAA compliant high-contrast theme option.",
+      "url": "https://github.com/example/analytics-app/pull/193",
+      "merged_at": "2026-12-09T16:00:00Z",
+      "is_breaking": false
+    }
+  ],
+  "candidate_draft": "# Release Notes\n\n## Features\n- [#191] Get real-time query suggestions while typing in global search.\n\n## Fixes\n- [#192] Fixed indefinite loading spinner when downloading multi-page invoice PDFs.\n\n## Breaking Changes\n- None in this release\n",
+  "expected": "reject",
+  "expected_problem": "Missing PR #193"
+}

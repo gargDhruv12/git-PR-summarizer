@@ -1,0 +1,34 @@
+{
+  "repo_name": "example/analytics-app",
+  "week_start": "2026-10-25",
+  "week_end": "2026-11-01",
+  "merged_prs": [
+    {
+      "pr_number": 141,
+      "title": "Fix crash when uploading SVG avatar images",
+      "summary": "Fixes an unhandled XML parsing exception when users upload SVG format profile avatars.",
+      "url": "https://github.com/example/analytics-app/pull/141",
+      "merged_at": "2026-10-26T11:10:00Z",
+      "is_breaking": false
+    },
+    {
+      "pr_number": 142,
+      "title": "Resolve database connection pool exhaustion under load",
+      "summary": "Increases pool recycling rate and properly returns leased connections after request completion.",
+      "url": "https://github.com/example/analytics-app/pull/142",
+      "merged_at": "2026-10-28T14:25:00Z",
+      "is_breaking": false
+    },
+    {
+      "pr_number": 143,
+      "title": "Fix incorrect currency symbol rendering for GBP accounts",
+      "summary": "Ensures invoices and billing statements render the £ symbol correctly instead of a question mark.",
+      "url": "https://github.com/example/analytics-app/pull/143",
+      "merged_at": "2026-10-30T17:05:00Z",
+      "is_breaking": false
+    }
+  ],
+  "candidate_draft": "# Release Notes\n\n## Features\n- None in this release\n\n## Fixes\n- [#141] Resolved application crash when uploading SVG avatar images.\n- [#142] Fixed database connection pool exhaustion under high traffic loads.\n- [#143] Corrected currency symbol rendering for GBP billing statements.\n\n## Breaking Changes\n- None in this release\n",
+  "expected": "pass",
+  "expected_problem": null
+}

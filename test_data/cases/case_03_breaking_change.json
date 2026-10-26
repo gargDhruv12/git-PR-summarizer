@@ -1,0 +1,34 @@
+{
+  "repo_name": "example/analytics-app",
+  "week_start": "2026-10-17",
+  "week_end": "2026-10-24",
+  "merged_prs": [
+    {
+      "pr_number": 131,
+      "title": "Add search bar filters for audit logs",
+      "summary": "Allows administrators to filter audit logs by date range, user ID, and action category.",
+      "url": "https://github.com/example/analytics-app/pull/131",
+      "merged_at": "2026-10-18T10:15:00Z",
+      "is_breaking": false
+    },
+    {
+      "pr_number": 132,
+      "title": "Fix broken pagination on customer orders page",
+      "summary": "Fixes pagination controls resetting to page 1 unexpectedly when applying table filters.",
+      "url": "https://github.com/example/analytics-app/pull/132",
+      "merged_at": "2026-10-19T15:40:00Z",
+      "is_breaking": false
+    },
+    {
+      "pr_number": 133,
+      "title": "Remove deprecated v1 REST API endpoints",
+      "summary": "Removes legacy v1 authentication endpoints in favor of OAuth 2.0 PKCE flow. Applications must migrate to v2.",
+      "url": "https://github.com/example/analytics-app/pull/133",
+      "merged_at": "2026-10-21T09:30:00Z",
+      "is_breaking": true
+    }
+  ],
+  "candidate_draft": "# Release Notes\n\n## Features\n- [#131] Filter audit logs by date range, user ID, and action category.\n\n## Fixes\n- [#132] Fixed pagination controls resetting to page 1 unexpectedly on customer orders page.\n\n## Breaking Changes\n- [#133] Removed deprecated v1 REST API endpoints; all applications must migrate to v2 OAuth endpoints.\n",
+  "expected": "pass",
+  "expected_problem": null
+}

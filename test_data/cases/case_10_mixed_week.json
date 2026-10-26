@@ -1,0 +1,50 @@
+{
+  "repo_name": "example/analytics-app",
+  "week_start": "2026-12-12",
+  "week_end": "2026-12-19",
+  "merged_prs": [
+    {
+      "pr_number": 201,
+      "title": "Introduce real-time notification bell in header",
+      "summary": "Displays an unread notification count badge and interactive drawer in the app header.",
+      "url": "https://github.com/example/analytics-app/pull/201",
+      "merged_at": "2026-12-13T09:30:00Z",
+      "is_breaking": false
+    },
+    {
+      "pr_number": 202,
+      "title": "Support batch user invite via CSV upload",
+      "summary": "Allows team administrators to invite up to 500 members simultaneously via CSV file.",
+      "url": "https://github.com/example/analytics-app/pull/202",
+      "merged_at": "2026-12-14T11:45:00Z",
+      "is_breaking": false
+    },
+    {
+      "pr_number": 203,
+      "title": "Fix memory leak in websocket heartbeat listeners",
+      "summary": "Cleans up dangling event emitters when browser tabs are backgrounded or disconnected.",
+      "url": "https://github.com/example/analytics-app/pull/203",
+      "merged_at": "2026-12-15T15:20:00Z",
+      "is_breaking": false
+    },
+    {
+      "pr_number": 204,
+      "title": "Prevent duplicate submission on slow checkout clicks",
+      "summary": "Disables submit button immediately upon first click and renders a loading spinner.",
+      "url": "https://github.com/example/analytics-app/pull/204",
+      "merged_at": "2026-12-16T17:10:00Z",
+      "is_breaking": false
+    },
+    {
+      "pr_number": 205,
+      "title": "Require MFA for all administrative API tokens",
+      "summary": "Mandates multi-factor authentication (MFA) enforcement on all API tokens with admin privileges.",
+      "url": "https://github.com/example/analytics-app/pull/205",
+      "merged_at": "2026-12-18T10:00:00Z",
+      "is_breaking": true
+    }
+  ],
+  "candidate_draft": "# Release Notes\n\n## Features\n- [#201] Live notification bell in the navigation header displays updates in real time.\n- [#202] Invite multiple team members simultaneously by uploading a CSV roster.\n\n## Fixes\n- [#203] Resolved memory leak caused by uncleaned WebSocket heartbeat event listeners.\n- [#204] Prevented duplicate form submissions during slow payment checkouts.\n\n## Breaking Changes\n- [#205] Administrative API tokens now strictly mandate multi-factor authentication (MFA).\n",
+  "expected": "pass",
+  "expected_problem": null
+}

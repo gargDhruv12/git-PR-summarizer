@@ -1,0 +1,36 @@
+{
+  "repo_name": "example/analytics-app",
+  "week_start": "2026-11-10",
+  "week_end": "2026-11-17",
+  "merged_prs": [
+    {
+      "pr_number": 161,
+      "title": "Add export to Excel XLSX format",
+      "summary": "Enables users to download financial summary reports in Microsoft Excel XLSX format.",
+      "url": "https://github.com/example/analytics-app/pull/161",
+      "merged_at": "2026-11-12T14:30:00Z",
+      "is_breaking": false
+    },
+    {
+      "pr_number": 162,
+      "title": "Fix CSS layout distortion on Safari 17",
+      "summary": "Fixes flexbox alignment issue causing misaligned table headers on WebKit/Safari 17.",
+      "url": "https://github.com/example/analytics-app/pull/162",
+      "merged_at": "2026-11-14T09:15:00Z",
+      "is_breaking": false
+    }
+  ],
+  "closed_not_merged": [
+    {
+      "pr_number": 169,
+      "title": "PoC for experimental WebSocket live feeds",
+      "summary": "Closed without merge due to architectural redesign in favor of Server-Sent Events.",
+      "url": "https://github.com/example/analytics-app/pull/169",
+      "merged_at": null,
+      "is_breaking": false
+    }
+  ],
+  "candidate_draft": "# Release Notes\n\n## Features\n- [#161] Download summary reports in Microsoft Excel XLSX format.\n\n## Fixes\n- [#162] Resolved CSS layout distortion on Safari 17 browsers.\n\n## Breaking Changes\n- None in this release\n",
+  "expected": "pass",
+  "expected_problem": null
+}

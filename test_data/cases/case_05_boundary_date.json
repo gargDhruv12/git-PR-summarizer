@@ -1,0 +1,26 @@
+{
+  "repo_name": "example/analytics-app",
+  "week_start": "2026-11-02",
+  "week_end": "2026-11-09",
+  "merged_prs": [
+    {
+      "pr_number": 151,
+      "title": "Add dark mode preference persistence",
+      "summary": "Saves theme preference to user profile so dark mode remains active across distinct devices.",
+      "url": "https://github.com/example/analytics-app/pull/151",
+      "merged_at": "2026-11-04T12:00:00Z",
+      "is_breaking": false
+    },
+    {
+      "pr_number": 152,
+      "title": "Fix session token refresh expiration",
+      "summary": "Fixes premature token invalidation by adjusting refresh window clock skew tolerance.",
+      "url": "https://github.com/example/analytics-app/pull/152",
+      "merged_at": "2026-11-09T23:45:00Z",
+      "is_breaking": false
+    }
+  ],
+  "candidate_draft": "# Release Notes\n\n## Features\n- [#151] Persist dark mode preference across user devices.\n\n## Fixes\n- [#152] Fixed session token refresh failure that forced user logout on the last day of validity.\n\n## Breaking Changes\n- None in this release\n",
+  "expected": "pass",
+  "expected_problem": null
+}

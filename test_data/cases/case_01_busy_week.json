@@ -1,0 +1,74 @@
+{
+  "repo_name": "example/analytics-app",
+  "week_start": "2026-10-01",
+  "week_end": "2026-10-08",
+  "merged_prs": [
+    {
+      "pr_number": 111,
+      "title": "Add CSV export for analytics dashboard",
+      "summary": "Allows users to export aggregated analytics dashboards directly to CSV format.",
+      "url": "https://github.com/example/analytics-app/pull/111",
+      "merged_at": "2026-10-02T09:15:00Z",
+      "is_breaking": false
+    },
+    {
+      "pr_number": 112,
+      "title": "Support webhook event subscriptions",
+      "summary": "Enables external systems to subscribe to real-time events via custom webhooks.",
+      "url": "https://github.com/example/analytics-app/pull/112",
+      "merged_at": "2026-10-02T14:30:00Z",
+      "is_breaking": false
+    },
+    {
+      "pr_number": 113,
+      "title": "Implement role-based access control for teams",
+      "summary": "Adds granular role-based permissions (Admin, Editor, Viewer) for workspace teams.",
+      "url": "https://github.com/example/analytics-app/pull/113",
+      "merged_at": "2026-10-03T11:45:00Z",
+      "is_breaking": false
+    },
+    {
+      "pr_number": 114,
+      "title": "Add multi-language localization for UI",
+      "summary": "Adds multilingual interface translations for Spanish, French, and German locales.",
+      "url": "https://github.com/example/analytics-app/pull/114",
+      "merged_at": "2026-10-04T16:20:00Z",
+      "is_breaking": false
+    },
+    {
+      "pr_number": 115,
+      "title": "Fix memory leak in background queue worker",
+      "summary": "Resolves uncollected database cursors leaking memory in background queue workers.",
+      "url": "https://github.com/example/analytics-app/pull/115",
+      "merged_at": "2026-10-05T10:00:00Z",
+      "is_breaking": false
+    },
+    {
+      "pr_number": 116,
+      "title": "Resolve race condition in payment checkout",
+      "summary": "Fixes an intermittent race condition causing duplicate charges during rapid click checkout.",
+      "url": "https://github.com/example/analytics-app/pull/116",
+      "merged_at": "2026-10-05T18:10:00Z",
+      "is_breaking": false
+    },
+    {
+      "pr_number": 117,
+      "title": "Correct timezone calculation on weekly email digest",
+      "summary": "Ensures weekly email digest statistics respect the recipient's configured timezone.",
+      "url": "https://github.com/example/analytics-app/pull/117",
+      "merged_at": "2026-10-06T13:40:00Z",
+      "is_breaking": false
+    },
+    {
+      "pr_number": 118,
+      "title": "Drop legacy TLS 1.0 and TLS 1.1 cipher suites",
+      "summary": "Disables outdated TLS 1.0 and 1.1 protocols; clients must support TLS 1.2 or higher.",
+      "url": "https://github.com/example/analytics-app/pull/118",
+      "merged_at": "2026-10-07T08:50:00Z",
+      "is_breaking": true
+    }
+  ],
+  "candidate_draft": "# Release Notes\n\n## Features\n- [#111] Export analytics dashboards directly to CSV format.\n- [#112] Subscribe to real-time events via custom webhooks.\n- [#113] Manage team permissions with role-based access controls.\n- [#114] Access user interface in Spanish, French, and German.\n\n## Fixes\n- [#115] Fixed memory leak in the background queue processor.\n- [#116] Resolved intermittent race condition during checkout.\n- [#117] Corrected user timezone calculations in weekly email digests.\n\n## Breaking Changes\n- [#118] Deprecated and disabled connections using TLS 1.0 and 1.1; TLS 1.2+ is now required.\n",
+  "expected": "pass",
+  "expected_problem": null
+}

@@ -1,0 +1,11 @@
+name,expected,actual,passed_or_failed,line_accuracy,pr_coverage
+case_01_busy_week.json,pass,pass,PASSED,100.0%,100.0%
+case_02_quiet_week.json,pass,pass,PASSED,100.0%,100.0%
+case_03_breaking_change.json,pass,pass,PASSED,100.0%,100.0%
+case_04_fixes_only.json,pass,pass,PASSED,100.0%,100.0%
+case_05_boundary_date.json,pass,pass,PASSED,100.0%,100.0%
+case_06_closed_not_merged.json,pass,pass,PASSED,100.0%,100.0%
+case_07_planted_invented.json,reject,reject,PASSED,66.7%,100.0%
+case_08_planted_missed_breaking.json,reject,reject,PASSED,100.0%,66.7%
+case_09_planted_dropped_pr.json,reject,reject,PASSED,100.0%,66.7%
+case_10_mixed_week.json,pass,pass,PASSED,100.0%,100.0%
